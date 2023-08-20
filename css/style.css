@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/assasa.jpg);
+    background-size: cover;
+}
+
+.header{
+    height: 100%;
+    background-color: #d6d6d6;
+
+}
+
+.footer{
+    height: 100%;
+    margin-top: auto;
+    height: 35px;
+    background-color: #d8d389;
+}
+
+.saa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas{
+    background-color: #fdf8f8;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    padding: 3px;
+    margin: 10px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 320px){
+    .cajas{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media  (min-width: 321px) and (max-width: 768px){
+    .cajas{
+        grid-template-columns: repeat(2,1fr)
+    }
+
+}
+
+@media (min-width: 769px){
+    .cajas{
+        grid-template-columns: repeat(3,1fr)
+    }
+
+}
+
+#caja1{
+    background-color: #e20d0d;
+    width: 300px;
+    height: 300px;
+}
+
+#caja2{
+    background-color: #4d94ff;
+    width: 300px;
+    height: 300px;
+}
+
+#caja3{
+    background-color: #a30afc;
+    width: 300px;
+    height: 300px;
+}
+
+#caja4{
+    background-color: #ffee07;
+    width: 300px;
+    height: 300px;
+}
+
+#caja5{
+    background-color: #4f991d;
+    width: 300px;
+    height: 300px;
+}
+
+#caja6{
+    background-color: #f7762c;
+    width: 300px;
+    height: 300px;
+}
+
+#caja7{
+    background-color: #000;
+    width: 300px;
+    height: 300px;
+}
+
+#caja8{
+    background-color: #ffb68b;
+    width: 300px;
+    height: 300px;
+}
+
+#caja9{
+    background-color: #8d8d8d;
+    width: 300px;
+    height: 300px;
+}
+
+
+
